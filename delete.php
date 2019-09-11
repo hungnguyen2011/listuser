@@ -5,5 +5,5 @@
 		$sql="DELETE from tbl_user where stt='$id'";
 		$query=mysqli_query($conn, $sql);
 		header('Location: list.php');
-	} 
+	}
  ?>
